@@ -1,7 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: dan
- * Date: 29.01.2018
- * Time: 16:46
- */
+
+function customMultiply ($a , $b) {
+     return $a * $b;
+}
+echo customMultiply (3,5);
